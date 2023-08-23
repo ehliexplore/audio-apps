@@ -35,7 +35,8 @@ function showConfig() {
   
   
     const presetSounds = {
-      kickButton: 'audio-files/preset1-kick.mp3',
+      kickButton: 'satic/audiocontroller/audio/preset1-kick.mp3',
+      
       snareButton: 'audio-files/preset1-snare.mp3',
       hatButton: 'audio-files/preset1-hat.mp3',
       openhatButton: 'audio-files/preset1-openhat.mp3',

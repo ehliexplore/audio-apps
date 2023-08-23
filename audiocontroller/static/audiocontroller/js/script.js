@@ -6,7 +6,8 @@ console.log(theme);
 
 const soundMap = {
   // pads line 1
-  kickButton: 'audiocontroller/audio/preset1-kick.mp3',
+  kickButton: 'static/audiocontroller/audio/preset1-kick.mp3',
+  
   snareButton: 'audio-files/preset1-snare.mp3',
   hatButton: 'audio-files/preset1-hat.mp3',
   openhatButton: 'audio-files/preset1-openhat.mp3',
