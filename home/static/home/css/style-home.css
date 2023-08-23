@@ -1,4 +1,30 @@
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    height: 600px;
     background-color: black;
     color: gold;
+}
+
+
+.audiocontroller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.audiocontroller-icon {
+    height: 80px;
+    
+}
+
+.audiocontroller-icon:hover {
+    transform: scale(1.3);
 }

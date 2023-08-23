@@ -11,7 +11,19 @@
 </head>
 <body>
     <h1>HOME PAGE</h1>
+
+    <div class="audiocontroller">
+        <a href="{% url 'audiocontroller' %}">
+            <img class="audiocontroller-icon" src="{% static 'home/images/audiocontroller.png' %}" alt="">
+        </a>
+        
+        <p>Audio Controller</p>
+    </div>
+    
+
+
     <button>TEST BUTTON</button>
+
 
     <script>
         const myAudio = new Audio('myaudio.mp3');
