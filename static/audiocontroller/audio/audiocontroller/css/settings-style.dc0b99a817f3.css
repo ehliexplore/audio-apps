@@ -1,0 +1,51 @@
+
+
+.dark-theme-button, .gold-theme-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dark-theme-button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .gold-theme-button {
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .done-button-style {
+    padding-left: 33px;
+    padding-right: 33px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  
+  .preset-1-button, .preset-2-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  
+  }
+  
+  .preset-2-button-clicked {
+    background-color: blue;
+    color: white;
+  }
+  
+  .preset-1-button-clicked {
+    background-color: blue;
+    color: white;
+  }
+  
+  
+  
+  
