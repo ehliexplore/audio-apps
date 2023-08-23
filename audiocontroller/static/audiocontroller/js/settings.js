@@ -35,23 +35,23 @@ function showConfig() {
   
   
     const presetSounds = {
-      kickButton: 'static/audiocontroller/audio/preset1-kick.mp3',
-      
-      snareButton: 'static/audiocontroller/audio/preset1-snare.mp3',
-      hatButton: 'static/audiocontroller/audio/preset1-hat.mp3',
-      openhatButton: 'static/audiocontroller/audio/preset1-openhat.mp3',
-      button808: 'static/audiocontroller/audio/preset1-808.mp3',
-      clapButton: 'static/audiocontroller/audio/preset1-clap.mp3',
-      congaButton: 'static/audiocontroller/audio/preset1-conga.mp3',
-      metalshakeButton: 'static/audiocontroller/audio/preset1-metal-shake.mp3',
-      doButton: 'static/audiocontroller/audio/preset1-c.mp3',
-      reButton: 'static/audiocontroller/audio/preset1-d.mp3',
-      miButton: 'static/audiocontroller/audio/preset1-e.mp3',
-      faButton: 'static/audiocontroller/audio/preset1-f.mp3',
-      solButton: 'static/audiocontroller/audio/preset1-g.mp3',
-      laButton: 'static/audiocontroller/audio/preset1-a.mp3',
-      siButton: 'static/audiocontroller/audio/preset1-b.mp3'
+      kickButton: '../audio/preset1-kick.mp3',
+      snareButton: '../audio/preset1-snare.mp3',
+      hatButton: '../audio/preset1-hat.mp3',
+      openhatButton: '../audio/preset1-openhat.mp3',
+      button808: '../audio/preset1-808.mp3',
+      clapButton: '../audio/preset1-clap.mp3',
+      congaButton: '../audio/preset1-conga.mp3',
+      metalshakeButton: '../audio/preset1-metal-shake.mp3',
+      doButton: '../audio/preset1-c.mp3',
+      reButton: '../audio/preset1-d.mp3',
+      miButton: '../audio/preset1-e.mp3',
+      faButton: '../audio/preset1-f.mp3',
+      solButton: '../audio/preset1-g.mp3',
+      laButton: '../audio/preset1-a.mp3',
+      siButton: '../audio/preset1-b.mp3'
     };
+    
   }
   
   function updateSoundFiles(presetSounds) { 
@@ -73,22 +73,23 @@ function showConfig() {
   
   
     const presetSounds = {
-      kickButton: 'static/audiocontroller/audio/preset2-kick.mp3',
-      snareButton: 'static/audiocontroller/audio/preset2-snare.mp3',
-      hatButton: 'static/audiocontroller/audio/preset2-sword.mp3',
-      openhatButton: 'static/audiocontroller/audio/preset2-vib.mp3',
-      button808: 'static/audiocontroller/audio/preset2-808.mp3',
-      clapButton: 'static/audiocontroller/audio/preset2-clap.mp3',
-      congaButton: 'static/audiocontroller/audio/preset2-agogo-1.mp3',
-      metalshakeButton: 'static/audiocontroller/audio/preset2-agogo-2.mp3',
-      doButton: 'static/audiocontroller/audio/preset2-c.mp3',
-      reButton: 'static/audiocontroller/audio/preset2-d.mp3',
-      miButton: 'static/audiocontroller/audio/preset2-e.mp3',
-      faButton: 'static/audiocontroller/audio/preset2-f.mp3',
-      solButton: 'static/audiocontroller/audio/preset2-g.mp3',
-      laButton: 'static/audiocontroller/audio/preset2-a.mp3',
-      siButton: 'static/audiocontroller/audio/preset2-b.mp3'
+      kickButton: '../audio/preset2-kick.mp3',
+      snareButton: '../audio/preset2-snare.mp3',
+      hatButton: '../audio/preset2-sword.mp3',
+      openhatButton: '../audio/preset2-vib.mp3',
+      button808: '../audio/preset2-808.mp3',
+      clapButton: '../audio/preset2-clap.mp3',
+      congaButton: '../audio/preset2-agogo-1.mp3',
+      metalshakeButton: '../audio/preset2-agogo-2.mp3',
+      doButton: '../audio/preset2-c.mp3',
+      reButton: '../audio/preset2-d.mp3',
+      miButton: '../audio/preset2-e.mp3',
+      faButton: '../audio/preset2-f.mp3',
+      solButton: '../audio/preset2-g.mp3',
+      laButton: '../audio/preset2-a.mp3',
+      siButton: '../audio/preset2-b.mp3'
     };
+    
     
     updateSoundFiles(presetSounds);
     localStorage.setItem('selectedPreset', 'preset2');

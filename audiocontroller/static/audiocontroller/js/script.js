@@ -4,29 +4,30 @@ let selectedPreset = localStorage.getItem('selectedPreset') || 'preset1';
 console.log(selectedPreset);
 console.log(theme);
 
+
 const soundMap = {
   // pads line 1
-  kickButton: 'static/audiocontroller/audio/preset1-kick.mp3', // example path
-  
-  snareButton: 'static/audiocontroller/audio/preset1-snare.mp3',
-  hatButton: 'static/audiocontroller/audio/preset1-hat.mp3',
-  openhatButton: 'static/audiocontroller/audio/preset1-openhat.mp3',
+  kickButton: '../audio/preset1-kick.mp3',
+  snareButton: '../audio/preset1-snare.mp3',
+  hatButton: '../audio/preset1-hat.mp3',
+  openhatButton: '../audio/preset1-openhat.mp3',
 
   // pads line 2
-  button808: 'static/audiocontroller/audio/preset1-808.mp3',
-  clapButton: 'static/audiocontroller/audio/preset1-clap.mp3',
-  congaButton: 'static/audiocontroller/audio/preset1-conga.mp3',
-  metalshakeButton: 'static/audiocontroller/audio/preset1-metal-shake.mp3',
+  button808: '../audio/preset1-808.mp3',
+  clapButton: '../audio/preset1-clap.mp3',
+  congaButton: '../audio/preset1-conga.mp3',
+  metalshakeButton: '../audio/preset1-metal-shake.mp3',
 
   // melody 
-  doButton: 'static/audiocontroller/audio/preset1-c.mp3',
-  reButton: 'static/audiocontroller/audio/preset1-d.mp3',
-  miButton: 'static/audiocontroller/audio/preset1-e.mp3',
-  faButton: 'static/audiocontroller/audio/preset1-f.mp3',
-  solButton: 'static/audiocontroller/audio/preset1-g.mp3',
-  laButton: 'static/audiocontroller/audio/preset1-a.mp3',
-  siButton: 'static/audiocontroller/audio/preset1-b.mp3'
+  doButton: '../audio/preset1-c.mp3',
+  reButton: '../audio/preset1-d.mp3',
+  miButton: '../audio/preset1-e.mp3',
+  faButton: '../audio/preset1-f.mp3',
+  solButton: '../audio/preset1-g.mp3',
+  laButton: '../audio/preset1-a.mp3',
+  siButton: '../audio/preset1-b.mp3'
 };
+
 
 
 

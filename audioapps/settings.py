@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', cast=bool)
+DEBUG = config('DEBUG', case=bool)
 
 ALLOWED_HOSTS = []
 
@@ -35,6 +35,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'audiocontroller',
+    'home',
     
     'django.contrib.admin',
     'django.contrib.auth',
@@ -131,4 +132,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/audiocontroller/audio')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
