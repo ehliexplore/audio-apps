@@ -1,188 +1,203 @@
 body {
-    background-color: black;
-    font-family: Arial;
-  }
-  
-  body, .main-style {
-    
-    color: white;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  
-    height: 600px;
-  }
-  
-  .pads-div-1, .pads-div-2 {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .config-button, .home-button {
-    position: relative;
-    bottom: 30px;
-    display: flex;
-    align-self: flex-start;
-    margin-left: 25px;
-  
-    border: none;
-    color: gray;
-    background-color: transparent;
-    cursor: pointer;
-  }
+  background-color: black;
+  font-family: Arial;
+}
 
-  .home-button {
-    display: flex;
-    margin-top: 10px;
-    
-  }
+body, .main-style {
+  
+  color: white;
 
-  
-  
-  .lightmode-buttons {
-    background-color: rgb(40, 40, 43);
-  }
-  
-  
-  
-  .config-button:hover, .back-button-style:hover {
-    color: white;
-  }
-  
-  
-  .pad-style-1, .pad-style-2,
-  .pad-style-3, .pad-style-4,
-  .pad-style-5, .pad-style-6, 
-  .pad-style-7, .pad-style-8 {
-    padding: 50px;
-    border: none;
-    border-radius: 10px;
-  }
-  
-  .pad-style-1:hover, .active-kickButton {
-    background-color: gray;
-  }
-  
-  .pad-style-2:hover, .active-snareButton {
-    background-color: darkred;
-  }
-  
-  .pad-style-3:hover, .active-hatButton {
-    background-color: lightgreen;
-  }
-  
-  .pad-style-4:hover, .active-openhatButton {
-    background-color: darkgoldenrod;
-  }
-  
-  .pad-style-5:hover, .active-button808 {
-    background-color: lightcoral;
-  }
-  
-  .pad-style-6:hover, .active-clapButton {
-    background-color: darkolivegreen;
-  }
-  
-  .pad-style-7:hover, .active-congaButton {
-    background-color: lightskyblue;
-  }
-  
-  .pad-style-8:hover, .active-metalshakeButton {
-    background-color: gray;
-  }
-  
-  .melody-button-style:hover, 
-  .melody-button-style-first:hover,
-  .melody-button-style-last:hover,
-  .melody-button-style-penultimate:hover,
-  .melody-button-style-second:hover,
-  .melody-button-style-center:hover {
-    background-color: darkred;
-  }
-  
-  /*
-  .lightmode-active-kickButton, .lightmode-active-snareButton,
-  .lightmode-active-clapButton, .lightmode-active-hatButton,
-  .lightmode-active-openhatButton, .lightmode-active-button808,
-  .lightmode-active-congaButton, .lightmode-active-metalshakeButton,
-  .lightmode-active-doButton, .lightmode-active-reButton,
-  .lightmode-active-miButton, .lightmode-active-faButton,
-  .lightmode-active-solButton, .lightmode-active-laButton,
-  .lightmode-active-siButton
-    {
-    background-color: red;
-  }
-  */
-  
-  
-  
-  .darkmode-hover-buttons:hover {
-    background-color: brown;
-  }
-  
-  .melody-div {
-    display: flex;
-    gap: 100px;
-    margin-top: 100px;
-  }
-  
-  .melody-button-style, 
-  .melody-button-style-first,
-  .melody-button-style-last,
-  .melody-button-style-penultimate,
-  .melody-button-style-second,
-  .melody-button-style-center {
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-    border: none;
-  }
-  
-  .melody-button-style-first {
-    position: relative;
-    bottom: 150px;
-  }
-  
-  .melody-button-style-last {
-    position: relative;
-    bottom: 150px;
-  }
-  
-  .melody-button-style-second {
-    position: relative;
-    bottom: 50px;
-  }
-  
-  .melody-button-style-penultimate {
-    position: relative;
-    bottom: 50px;
-  }
-  
-  .melody-button-style-center {
-    position: relative;
-    top: 50px;
-  }
-  
-  
-  .active-doButton, .active-reButton,
-  .active-miButton, .active-faButton,
-  .active-solButton, .active-laButton,
-  .active-siButton {
-    background-color: darkred;
-  }
-  
-  .config-button {
-    background-color: transparent;
-  }
-  
-  .config-button:hover {
-    background-color: transparent;
-    color: white;
-  }
-  
-  .light-buttons-color {
-    background-color: rgb(32, 30, 30);
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  height: 600px;
+}
+
+.pads-div-1, .pads-div-2 {
+  display: flex;
+  gap: 10px;
+}
+
+
+.settings-and-home-buttons {
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.config-button {
+  margin-left: 15px;
+}
+
+.config-button, .home-button {
+  position: relative;
+  bottom: 30px;
+  display: flex;
+  align-self: flex-start;
+  margin-left: 25px;
+
+  border: none;
+  color: gray;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.home-button {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+
+
+.lightmode-buttons {
+  background-color: rgb(40, 40, 43);
+}
+
+
+
+.config-button:hover, .back-button-style:hover {
+  color: white;
+}
+
+
+.pad-style-1, .pad-style-2,
+.pad-style-3, .pad-style-4,
+.pad-style-5, .pad-style-6, 
+.pad-style-7, .pad-style-8 {
+  padding: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+.pad-style-1:hover, .active-kickButton {
+  background-color: gray;
+}
+
+.pad-style-2:hover, .active-snareButton {
+  background-color: darkred;
+}
+
+.pad-style-3:hover, .active-hatButton {
+  background-color: lightgreen;
+}
+
+.pad-style-4:hover, .active-openhatButton {
+  background-color: darkgoldenrod;
+}
+
+.pad-style-5:hover, .active-button808 {
+  background-color: lightcoral;
+}
+
+.pad-style-6:hover, .active-clapButton {
+  background-color: darkolivegreen;
+}
+
+.pad-style-7:hover, .active-congaButton {
+  background-color: lightskyblue;
+}
+
+.pad-style-8:hover, .active-metalshakeButton {
+  background-color: gray;
+}
+
+.melody-button-style:hover, 
+.melody-button-style-first:hover,
+.melody-button-style-last:hover,
+.melody-button-style-penultimate:hover,
+.melody-button-style-second:hover,
+.melody-button-style-center:hover {
+  background-color: darkred;
+}
+
+/*
+.lightmode-active-kickButton, .lightmode-active-snareButton,
+.lightmode-active-clapButton, .lightmode-active-hatButton,
+.lightmode-active-openhatButton, .lightmode-active-button808,
+.lightmode-active-congaButton, .lightmode-active-metalshakeButton,
+.lightmode-active-doButton, .lightmode-active-reButton,
+.lightmode-active-miButton, .lightmode-active-faButton,
+.lightmode-active-solButton, .lightmode-active-laButton,
+.lightmode-active-siButton
+  {
+  background-color: red;
+}
+*/
+
+
+
+.darkmode-hover-buttons:hover {
+  background-color: brown;
+}
+
+.melody-div {
+  display: flex;
+  gap: 100px;
+  margin-top: 100px;
+}
+
+.melody-button-style, 
+.melody-button-style-first,
+.melody-button-style-last,
+.melody-button-style-penultimate,
+.melody-button-style-second,
+.melody-button-style-center {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+}
+
+.melody-button-style-first {
+  position: relative;
+  bottom: 150px;
+}
+
+.melody-button-style-last {
+  position: relative;
+  bottom: 150px;
+}
+
+.melody-button-style-second {
+  position: relative;
+  bottom: 50px;
+}
+
+.melody-button-style-penultimate {
+  position: relative;
+  bottom: 50px;
+}
+
+.melody-button-style-center {
+  position: relative;
+  top: 50px;
+}
+
+
+.active-doButton, .active-reButton,
+.active-miButton, .active-faButton,
+.active-solButton, .active-laButton,
+.active-siButton {
+  background-color: darkred;
+}
+
+.config-button {
+  background-color: transparent;
+}
+
+.config-button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.light-buttons-color {
+  background-color: rgb(32, 30, 30);
+}
